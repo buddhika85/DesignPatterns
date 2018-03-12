@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdpaterPattern\AdapterPattern.csproj", "{CBB7984D-CC35-472C-8C79-2C02A1D4AA88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{656D828B-F103-4834-9AB0-47C8F13208C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{E48CEC5A-889D-416D-ABA5-BAA94FA07943}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{CBB7984D-CC35-472C-8C79-2C02A1D4AA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB7984D-CC35-472C-8C79-2C02A1D4AA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB7984D-CC35-472C-8C79-2C02A1D4AA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48CEC5A-889D-416D-ABA5-BAA94FA07943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48CEC5A-889D-416D-ABA5-BAA94FA07943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48CEC5A-889D-416D-ABA5-BAA94FA07943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48CEC5A-889D-416D-ABA5-BAA94FA07943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CBB7984D-CC35-472C-8C79-2C02A1D4AA88} = {66BF02FE-675E-48B3-B883-2C336D702744}
+		{E48CEC5A-889D-416D-ABA5-BAA94FA07943} = {656D828B-F103-4834-9AB0-47C8F13208C8}
 	EndGlobalSection
 EndGlobal
