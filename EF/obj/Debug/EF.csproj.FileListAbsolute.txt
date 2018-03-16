@@ -18,7 +18,6 @@ C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EntityFramework.dll
 C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EntityFramework.SqlServer.dll
 C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EntityFramework.xml
 C:\Buddhika - work\applications\JkcsTest\EF\bin\Debug\EntityFramework.SqlServer.xml
-C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
 C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.Migrations.InitialDatabase.resources
 C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.Migrations.InitialDbPopulation.resources
 C:\Buddhika - work\applications\JkcsTest\EF\obj\Debug\EF.Migrations.InitialEmployeeDataPopulation.resources

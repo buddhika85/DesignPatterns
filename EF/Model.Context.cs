@@ -13,7 +13,7 @@ namespace EF
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class EmployeeMgmtEntities : DbContext
+    public partial class EmployeeMgmtEntities : DbContext, IEmployeeMgmtEntities
     {
         public EmployeeMgmtEntities()
             : base("name=EmployeeMgmtEntities")

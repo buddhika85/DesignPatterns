@@ -37,6 +37,12 @@
         </footer>
     </div>
 
+    @*client side validations*@
+    @section scripts
+    {
+        @Scripts.Render("~/bundles/jqueryval");
+    }
+
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B74A6788-B573-4661-9107-DBE062CE6976}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC Client", "MVC Client\MVC Client.csproj", "{F29CAF99-B821-4CBE-A92E-E16E91F65305}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIClient", "APIClient\APIClient.csproj", "{FF987CCE-08FE-403A-A098-CEEC176899A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{99A0ADB2-83B4-4543-87DE-7D56F3E5515B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{FF987CCE-08FE-403A-A098-CEEC176899A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF987CCE-08FE-403A-A098-CEEC176899A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF987CCE-08FE-403A-A098-CEEC176899A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A0ADB2-83B4-4543-87DE-7D56F3E5515B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A0ADB2-83B4-4543-87DE-7D56F3E5515B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A0ADB2-83B4-4543-87DE-7D56F3E5515B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A0ADB2-83B4-4543-87DE-7D56F3E5515B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

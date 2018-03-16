@@ -55,6 +55,7 @@
     <Compile Include="C__MigrationHistory.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="IEmployeeMgmtEntities.cs" />
     <Compile Include="Migrations\201802260725459_InitialDatabase.cs" />
     <Compile Include="Migrations\201802260725459_InitialDatabase.Designer.cs">
       <DependentUpon>201802260725459_InitialDatabase.cs</DependentUpon>

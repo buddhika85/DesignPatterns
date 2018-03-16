@@ -36,7 +36,7 @@ namespace BusinessLogic
             }
         }
 
-        public IQueryable<EmployeeViewModel> GetAll()
+        public IEnumerable<EmployeeViewModel> GetAll()
         {
             try
             {
@@ -46,7 +46,8 @@ namespace BusinessLogic
                 {
                     employeeVms.Add(ConvertModelToVm(item));
                 }
-                return employeeVms.AsQueryable<EmployeeViewModel>();
+                //return employeeVms.AsQueryable<EmployeeViewModel>();
+                return employeeVms;
             }
             catch (Exception)
             {

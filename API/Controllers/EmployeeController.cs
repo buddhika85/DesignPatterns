@@ -1,14 +1,13 @@
 ﻿using BusinessLogic;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+//using System.Web.Mvc;
 using ViewModels;
 
 namespace API.Controllers
-{    
+{
     public class EmployeeController : ApiController
     {
         EmployeeService employeeService = null;
@@ -53,14 +52,15 @@ namespace API.Controllers
             }
         }
 
-        // POST: api/Employee
+        // POST: api/Employee        
         [HttpPost]
+        [System.Web.Mvc.ValidateAntiForgeryToken]      // CSRF
         public IHttpActionResult Post(EmployeeViewModel employee)
         {
             try
             {
                 employeeService.Insert(employee);
-                return Created<EmployeeViewModel>(typeof(EmployeeService).ToString(), employee);
+                return Ok();
             }
             catch (Exception ex)
             {
@@ -70,6 +70,7 @@ namespace API.Controllers
 
         // PUT: api/Employee/5
         [HttpPut]
+        [System.Web.Mvc.ValidateAntiForgeryToken]       // CSRF
         public IHttpActionResult Put(EmployeeViewModel employee)
         {
             try
