@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdapterPattern
 {
-    // Ref - http://www.dotnettricks.com/learn/designpatterns/adapter-design-pattern-dotnet
+    // Ref - http://www.dotnettricks.com/learn/designpatterns/adapter-design-pattern-dotnet    
     class Program
     {
         static void Main(string[] args)
