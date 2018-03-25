@@ -86,7 +86,7 @@ namespace Singleton
     {
         private static Lazy<SingletonLazyThreadSafe> singleton;
         private readonly static object singletonLock = new object();
-        public SingletonLazyThreadSafe()                            // public contrtuctor works with Lazy keyword for singletons
+        public SingletonLazyThreadSafe()                            // public contrtuctor works with Lazy keyword for singletons - wrong 
         {
         }
 
